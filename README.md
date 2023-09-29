@@ -1,7 +1,7 @@
 # Simple-Banking-System-Simulator
 The "Simple Banking System Simulator" is a Java-based project aimed at offering a foundational understanding of essential banking system operations, account management, and transactions. Although it is a simplified simulation compared to real-world banking systems.
 
---------------------------------------CODE EXPLANATION---------------------------
+--------------------------------------**CODE EXPLANATION**---------------------------
 
 **Code Summary:**
 
@@ -36,8 +36,21 @@ This Java code consists of several classes that simulate a basic banking system.
 
 This code provides a basic framework for a simple banking system and can be extended for more complex scenarios with additional features and validation.
 
+--------------------------**CONCEPTS COVERED**-----------------------------------------
 
---------------------------PROJECT DESCRIPTION---------------------------------
+1. **Encapsulation:** The code uses private attributes and provides public getters and setters to control access to the account's information, demonstrating encapsulation.
+
+2. **Object Creation:** It showcases how to create instances of classes (`Account`, `AccountCreation`, `AccountClose`, `Transaction`) in Java.
+
+3. **Method Invocation:** The code demonstrates method invocation by calling methods on objects to perform various banking operations.
+
+4. **Static Variables:** The `randnum` variable is static, ensuring that each new account gets a unique account number.
+
+5. **Conditional Statements:** Conditional statements are used to check if the account is active and if there are sufficient funds for withdrawals.
+
+This project provides a basic foundation for understanding object-oriented principles, encapsulation, and creating a simple banking system in Java.
+
+--------------------------**PROJECT DESCRIPTION**---------------------------------
 
 
 The "Simple Banking System Simulator" is a Java application that simulates a basic banking system. It allows users to create and manage bank accounts, perform transactions (deposits and withdrawals), and view account balances. While simplified compared to real-world banking systems, this project serves as a foundational example for understanding fundamental concepts of account management and transactions in the context of a bank.
